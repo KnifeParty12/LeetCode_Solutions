@@ -12,7 +12,7 @@ public:
                 if(price[i] > price[i-1])s.insert(i);
             }
             else{
-                if(price[i] > price[i-1] && price[i] >= price[i+1]) s.insert(i);
+                if(price[i] > price[i-1]) s.insert(i);
             }
         }
         
